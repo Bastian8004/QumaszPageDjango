@@ -57,18 +57,19 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a class="logo">
+            <a href="{% url 'main' %}" class="logo">
               <h4>Qumasz</h4>
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Strona główna </a></li>
-              <li class="scroll-to-section"><a href="#about">O nas</a></li>
-              <li class="scroll-to-section"><a href="#services">Opinie</a></li>
-              <li class="scroll-to-section"><a href="#portfolio">Usługi</a></li>
-              <li class="scroll-to-section"><a href="#blog">Co nowego</a></li>
-              <li class="scroll-to-section"><a href="#contact">Kontakt</a></li>
+              <li class="scroll-to-section"><a href="{% url 'main' %}">Strona główna </a></li>
+              <li class="scroll-to-section"><a href="{% url 'onas' %}">O nas</a></li>
+              <li class="scroll-to-section"><a href="{% url 'opinie' %}">Opinie</a></li>
+              <li class="scroll-to-section"><a href="{% url 'uslugi' %}">Usługi</a></li>
+              <li class="scroll-to-section"><a href="{% url 'cennik' %}">Cennik</a></li>
+              <li class="scroll-to-section"><a href="{% url 'conowego' %}">Co nowego</a></li>
+              <li class="scroll-to-section"><a href="{% url 'kontakt' %}">Kontakt</a></li>
               <li class="scroll-to-section"></li>
             </ul>        
             <!-- ***** Menu End ***** -->

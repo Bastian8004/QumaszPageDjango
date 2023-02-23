@@ -147,12 +147,12 @@ body {
 }
 
 ::selection {
-  background: #03a4ed;
+  background: #0e771b;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #03a4ed;
+  background: #0e771b;
   color: #fff;
 }
 
@@ -189,16 +189,16 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #03a4ed;
+  color: #0e771b;
 }
 
 .section-heading h2 span {
-  color: #fe3f40;
+  color: #ffff00;
 }
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #0e771b;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -210,7 +210,7 @@ body {
 
 .main-red-button a {
   display: inline-block;
-  background-color: #fe3f40;
+  background-color: #ffff00;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -225,17 +225,17 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #fe3f40;
+  color: #ffff00;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
 }
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
@@ -254,11 +254,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fe3f40!important;
+  color: #ffff00!important;
 }
 
 .background-header .nav li a.active {
-  color: #fe3f40!important;
+  color: #ffff00!important;
 }
 
 .header-area {
@@ -298,7 +298,7 @@ header
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03a4ed;
+    color: #0e771b;
     line-height: 100px;
     float: left;
     -webkit-transition: all 0.3s ease 0s;
@@ -308,7 +308,7 @@ header
 }
 
 .logo h4 span {
-  color: #fe3f40;
+  color: #ffff00;
 }
 
 .background-header .main-nav .logo h4 {
@@ -376,18 +376,18 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #ffff00!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #ffff00!important;
   opacity: 1;
 }
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  background-color: #03a4ed;
+  background-color: #0e771b;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -448,7 +448,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fe3f40!important;
+  color: #ffff00!important;
   padding-left: 25px;
 }
 
@@ -588,7 +588,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fe3f40;
+  color: #ffff00;
 }
 
 @media (max-width: 1200px) {
@@ -621,7 +621,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe3f40!important;
+    color: #ffff00!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -682,7 +682,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe3f40!important;
+    color: #ffff00!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -723,10 +723,10 @@ header
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 preloader
---------------------------------------------- 
+---------------------------------------------
 */
 
 .js-preloader {
@@ -796,7 +796,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe3f40;
+    background: #ffff00;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -819,16 +819,16 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe3f40;
+    background: #ffff00;
     border-radius: 50%;
 }
 
 
 
-/* 
+/*
 ---------------------------------------------
 Banner Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
@@ -869,7 +869,7 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #fe3f40;
+  color: #ffff00;
   margin-bottom: 15px;
 }
 
@@ -881,12 +881,12 @@ Banner Style
 }
 
 .main-banner .left-content h2 em {
-  color: #03a4ed;
+  color: #0e771b;
   font-style: normal;
 }
 
 .main-banner .left-content h2 span {
-  color: #fe3f40;
+  color: #ffff00;
 }
 
 .main-banner .left-content p {
@@ -908,7 +908,7 @@ Banner Style
   background-color: #fff;
   font-size: 15px;
   font-weight: 500;
-  color: #fe3f40;
+  color: #ffff00;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -920,7 +920,7 @@ Banner Style
 .main-banner .left-content form input {
   width: 470px;
   height: 66px;
-  background-color: #03a4ed;
+  background-color: #0e771b;
   border-radius: 33px;
   border: none;
   outline: none;
@@ -937,10 +937,10 @@ Banner Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 About Us Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 #about {
@@ -984,10 +984,10 @@ About Us Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Services Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .our-services {
@@ -1019,7 +1019,7 @@ Services Style
   top: 0;
   font-size: 18px;
   font-weight: 600;
-  color: #03a4ed;
+  color: #0e771b;
 }
 
 .our-services .first-bar span {
@@ -1073,10 +1073,10 @@ Services Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Portfolio
---------------------------------------------- 
+---------------------------------------------
 */
 
 .our-portfolio {
@@ -1162,10 +1162,10 @@ Portfolio
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Blog
---------------------------------------------- 
+---------------------------------------------
 */
 
 .our-blog {
@@ -1281,10 +1281,10 @@ Blog
 }
 
 
-/* 
+/*
 ---------------------------------------------
 contact
---------------------------------------------- 
+---------------------------------------------
 */
 
 .contact-us {
@@ -1396,7 +1396,7 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #0e771b;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1410,14 +1410,14 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #fe3f40;
+  background-color: #ffff00;
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Footer Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 footer p {
@@ -1426,13 +1426,13 @@ footer p {
 }
 
 footer p a {
-  color: #fe3f40;
+  color: #ffff00;
 }
 
-/* 
+/*
 ---------------------------------------------
 responsive
---------------------------------------------- 
+---------------------------------------------
 */
 
 @media (max-width: 1645px) {
