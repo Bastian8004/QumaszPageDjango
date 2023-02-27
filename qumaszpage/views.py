@@ -75,7 +75,7 @@ def opinion_list(request):
 
 def opinion_new(request):
     if request.method == "OPINION":
-        form = PostForm(request.OPINION, request.FILES)
+        form = OpinionForm(request.OPINION, request.FILES)
         if form.is_valid():
             opinion = form.save(commit=False)
             opinion.author = request.user
