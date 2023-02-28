@@ -96,3 +96,7 @@ def opinion_edit(request, pk):
     else:
         form = OpinionForm(instance=opinion)
     return render(request, '/opinion_edit.html', {'form': form})
+
+
+
+
