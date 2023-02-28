@@ -7,7 +7,7 @@ class Post(models.Model):
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True,null=True)
-    image = models.ImageField(null=True, blank=True, upload_to='/images', default='images/car.png')
+    image = models.ImageField(null=True, blank=True, upload_to='/media', default='media/car.png')
 
     def publish(self):
         self.published_date = timezone.now()
@@ -18,7 +18,7 @@ class Post(models.Model):
 
 
 class Opinion(models.Model):
-    author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+    author = models.TextField()
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True,null=True)

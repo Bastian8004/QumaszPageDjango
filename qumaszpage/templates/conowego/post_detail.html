@@ -1,19 +1,37 @@
 {% extends 'templates/base.html' %}
 
 {% block content %}
-<div class="post" xmlns="http://www.w3.org/1999/html">
-        {% if post.published_date %}
-        <div class="date">
+<div id="blog" class="our-blog section" xmlns="http://www.w3.org/1999/html">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <h2>Co nowego w <span>Qumasz</span></h2>
+          </div>
+        </div>
+          {% if post.published_date %}
+        <div class="fa fa-calendar">
             {{ post.published_date }}
         </div>
         {% endif %}
-        {% if user.is_authenticated %}
-        <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
-        {% endif %}
-        <h2><b>{{ post.title }}</b></h2>
-        <img class="img" src="{{ post.image.url }}" alt="Obrazek" width="300">
-        <p>{{ post.text|linebreaksbr }}</p>
-        <br /><br />
-
+      </div>
+      <div class="row">
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="left-image">
+            <a href="#"><img src="{{ post.image.url }}" alt=""></a>
+            <div class="info">
+              <div class="inner-content">
+                <ul>
+                  <li><i class="fa fa-users"></i> {{ post.author }}</li>
+                </ul>
+                <a href="{% url 'post_detail' pk=post.pk %}"><h4>{{ post.title }}</h4></a>
+                <p>{{ post.text|linebreaksbr }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 {% endblock %}
+

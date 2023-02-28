@@ -1,14 +1,39 @@
 {% extends 'templates/base.html' %}
 
     {% block content %}
-        {% for post in posts %}
-        <div class="post">
-            <img src="{{ post.image.url }}" class="img" alt="Obrazek" width="40%"><br>
-            <div class="data">
-            <p>opublikowany: {{ post.published_date }}</p>
-            </div><h2><b><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></b></h2>
-        <br/>
-            <em>{{ post.text|linebreaksbr }}</em><br/>
+{% for post in posts %}
+<div id="blog" class="our-blog section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <h2>Co nowego w <span>Qumasz</span></h2>
+          </div>
         </div>
-        {% endfor %}
+        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="top-dec">
+            <img src="assets/images/blog-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="left-image">
+            <a href="#"><img src="{{ post.image.url }}" alt=""></a>
+            <div class="info">
+              <div class="inner-content">
+                <ul>
+                  <li><i class="fa fa-calendar"></i>{{ post.published_date }}</li>
+                  <li><i class="fa fa-users"></i> {{ post.author }}</li>
+                </ul>
+                <a href="{% url 'post_detail' pk=post.pk %}"><h4>{{ post.title }}</h4></a>
+                <p>{{ post.text|linebreaksbr }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
     {% endblock %}

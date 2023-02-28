@@ -20,9 +20,6 @@ def kontakt(request):
 def cennik(request):
     return render(request, '/cennik.html')
 
-def conowego(request):
-    return render(request, '/conowego.html')
-
 def onas(request):
     return render(request, '/onas.html')
 

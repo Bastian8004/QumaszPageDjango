@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Opinion,Post
+
+admin.site.register(Opinion)
+admin.site.register(Post)
