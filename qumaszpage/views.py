@@ -9,34 +9,34 @@ from django.http import HttpResponse
 
 
 def main(request):
-    return render(request, '/main.html')
+    return render(request, 'main.html')
 
-def uslugi():
-    return render( '/uslugi.html')
+def uslugi(request):
+    return render(request, 'uslugi.html')
 
 def kontakt(request):
-    return render(request, '/kontakt.html')
+    return render(request, 'kontakt.html')
 
 def cennik(request):
-    return render(request, '/cennik.html')
+    return render(request, 'cennik.html')
 
 def onas(request):
-    return render(request, '/onas.html')
+    return render(request, 'onas.html')
 
 def opinie(request):
-    return render(request, '/opinie.html')
+    return render(request, 'opinie.html')
 
 def post_list(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, '/post_list.html', {'posts': posts})
+    return render(request, 'conowego/post_list.html', {'posts': posts})
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
-    return render(request, '/post_detail.html', {'post': post})
+    return render(request, 'conowego/post_detail.html', {'post': post})
 
 def error_404_view(request, exception):
     data = {"name": 'Qumasz'}
-    return render(request, '/404.html', data)
+    return render(request, '404.html', data)
 
 def post_new(request):
     if request.method == "POST":
@@ -46,10 +46,10 @@ def post_new(request):
             post.author = request.user
             post.published_date = timezone.now()
             post.save()
-            return redirect('post_detail', pk=post.pk)
+            return redirect('conowego/post_detail', pk=post.pk)
     else:
         form = PostForm()
-    return render(request, '/post_edit.html', {'form': form})
+    return render(request, 'conowego/post_edit.html', {'form': form})
 
 def post_edit(request, pk):
     post = get_object_or_404(Post,pk=pk)
@@ -60,14 +60,14 @@ def post_edit(request, pk):
             post.author = request.user
             post.published_date = timezone.now()
             post.save()
-            return redirect('post_detail', pk=post.pk)
+            return redirect('conowego/post_detail', pk=post.pk)
     else:
         form = PostForm(instance=post)
-    return render(request, '/post_edit.html', {'form': form})
+    return render(request, 'conowego/post_edit.html', {'form': form})
 
 def opinion_list(request):
     opinions = Opinion.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, '/opinie.html', {'opinions': opinions})
+    return render(request, 'opinie/opinie.html', {'opinions': opinions})
 
 
 def opinion_new(request):
@@ -81,7 +81,7 @@ def opinion_new(request):
             return redirect('opinion_list')
     else:
         form = OpinionForm()
-    return render(request, '/opinion_edit.html', {'form': form})
+    return render(request, 'opinie/opinion_edit.html', {'form': form})
 
 def opinion_edit(request, pk):
     opinion = get_object_or_404(Opinion,pk=pk)
@@ -95,7 +95,7 @@ def opinion_edit(request, pk):
             return redirect('opinion_list')
     else:
         form = OpinionForm(instance=opinion)
-    return render(request, '/opinion_edit.html', {'form': form})
+    return render(request, 'opinie/opinion_edit.html', {'form': form})
 
 
 
