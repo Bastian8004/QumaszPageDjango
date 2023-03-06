@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
 
-    {% block content %}
-{% for post in posts %}
-<div id="blog" class="our-blog section">
+{% block content %}
+  {% for post in posts %}
+
+  <div id="blog" class="our-blog section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
@@ -35,5 +36,5 @@
       </div>
     </div>
   </div>
-{% endfor %}
-    {% endblock %}
+  {% endfor %}
+{% endblock %}

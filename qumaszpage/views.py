@@ -23,8 +23,6 @@ def cennik(request):
 def onas(request):
     return render(request, 'onas.html')
 
-def opinie(request):
-    return render(request, 'opinie.html')
 
 def post_list(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
