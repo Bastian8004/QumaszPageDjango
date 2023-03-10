@@ -1,4 +1,4 @@
-/* 
+/*
 
 TemplateMo 562 Space Dynamic
 
@@ -23,16 +23,16 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -135,10 +135,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -190,7 +190,7 @@ body {
 .section-heading h3 {
   font-size: 30px;
   text-transform: capitalize;
-  color: #2a2a2a;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 0.25px;
   position: relative;
@@ -204,7 +204,7 @@ body {
 }
 
 .section-heading h2 span {
-  color: #ffff00;
+  color: #0e771b;
 }
 
 .main-blue-button a {
@@ -221,7 +221,7 @@ body {
 
 .main-red-button a {
   display: inline-block;
-  background-color: #ffff00;
+  background-color: #0e771b;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -236,7 +236,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #ffff00;
+  color: #0e771b;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -265,11 +265,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ffff00!important;
+  color: #0e771b!important;
 }
 
 .background-header .nav li a.active {
-  color: #ffff00!important;
+  color: #0e771b!important;
 }
 
 .header-area {
@@ -319,7 +319,7 @@ header
 }
 
 .logo h4 span {
-  color: #ffff00;
+  color: #0e771b;
 }
 
 .background-header .main-nav .logo h4 {
@@ -387,12 +387,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ffff00!important;
+  color: #0e771b!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ffff00!important;
+  color: #0e771b!important;
   opacity: 1;
 }
 
@@ -459,7 +459,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #ffff00!important;
+  color: #0e771b!important;
   padding-left: 25px;
 }
 
@@ -599,7 +599,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ffff00;
+  color: #0e771b;
 }
 
 @media (max-width: 1200px) {
@@ -632,7 +632,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ffff00!important;
+    color: #0e771b!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -693,7 +693,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ffff00!important;
+    color: #0e771b!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -807,7 +807,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #ffff00;
+    background: #0e771b;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -830,7 +830,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #ffff00;
+    background: #0e771b;
     border-radius: 50%;
 }
 
@@ -880,7 +880,7 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #ffff00;
+  color: #0e771b;
   margin-bottom: 15px;
 }
 
@@ -897,7 +897,7 @@ Banner Style
 }
 
 .main-banner .left-content h2 span {
-  color: #ffff00;
+  color: #0e771b;
 }
 
 .main-banner .left-content p {
@@ -919,7 +919,7 @@ Banner Style
   background-color: #fff;
   font-size: 15px;
   font-weight: 500;
-  color: #ffff00;
+  color: #0e771b;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -1421,7 +1421,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #ffff00;
+  background-color: #0e771b;
 }
 
 
@@ -1437,7 +1437,7 @@ footer p {
 }
 
 footer p a {
-  color: #ffff00;
+  color: #0e771b;
 }
 
 /*
