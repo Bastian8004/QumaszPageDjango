@@ -1,12 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
- <div id="blog" class="our-blog section">
+<div id="portfolio" class="our-portfolio section">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2>Opinie naszych uczniów:</h2>
+          </div>
+</div>
+ <div id="opinie" class="our-blog section">
       <div class="row">
-        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+        <div id="opinie-space" class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
         {% for opinion in opinions %}
-        <div class="info">
+        <div class="opinie-opis">
             <div class="inner-content">
             </div><h2><b>{{ opinion.author }}</b></h2>
         <br/>
