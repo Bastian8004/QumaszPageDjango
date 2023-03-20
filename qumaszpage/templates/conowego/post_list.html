@@ -17,40 +17,39 @@
           </div>
         </div>
       </div>
+      <br>
+      <br>
+      <br>
+      {% for post in posts %}
       <div class="row">
-        <div class="col-lg-6 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.25s" style="visibility: visible;-webkit-animation-duration: 1s; -moz-animation-duration: 1s; animation-duration: 1s;-webkit-animation-delay: 0.25s; -moz-animation-delay: 0.25s; animation-delay: 0.25s;">
+        <div id="blogbase" class="col-lg-6 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.25s" style="visibility: visible;-webkit-animation-duration: 1s; -moz-animation-duration: 1s; animation-duration: 1s;-webkit-animation-delay: 0.25s; -moz-animation-delay: 0.25s; animation-delay: 0.25s;">
           <div class="left-image">
-            <a href="#"><img src="assets/images/big-blog-thumb.jpg" alt="Workspace Desktop"></a>
+            <a href="#"><img src="{{ post.image.url }}"></a>
+            <br>
+            <br>
             <div class="info">
-              <div class="inner-content">
+              <div class="inner-content1">
                 <ul>
-                  <li><i class="fa fa-calendar"></i> 24 Mar 2021</li>
-                  <li><i class="fa fa-users"></i> TemplateMo</li>
-                  <li><i class="fa fa-folder"></i> Branding</li>
+                  <li><i class="fa fa-calendar"></i>{{ post.published_date }}</li>
+                  <li><i class="fa fa-users"></i> {{ post.author}}</li>
                 </ul>
-                <a href="#"><h4>SEO Agency &amp; Digital Marketing</h4></a>
-                <p>Lorem ipsum dolor sit amet, consectetur and sed doer ket eismod tempor incididunt ut labore et dolore magna...</p>
+                <a href="{% url 'post_detail' pk=post.pk %}"><h4>{{ post.title }}</h4></a>
+                <em>{{ post.text|linebreaksbr }}</em><br/>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.25s" style="visibility: visible;-webkit-animation-duration: 1s; -moz-animation-duration: 1s; animation-duration: 1s;-webkit-animation-delay: 0.25s; -moz-animation-delay: 0.25s; animation-delay: 0.25s;">
-          <div class="right-list">
-            <ul>
-              <li>
-                <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> 18 Mar 2021</span>
-                  <a href="#"><h4>New Websites &amp; Backlinks</h4></a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
-                </div>
-                <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      {% endfor %}
     </div>
   </div>
 

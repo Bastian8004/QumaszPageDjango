@@ -1144,7 +1144,7 @@ Portfolio
 
 .our-portfolio .hidden-content {
   background: rgb(255,77,30);
-  background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+  background: linear-gradient(105deg, #339900 0%, #339966 100%);
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -1166,7 +1166,7 @@ Portfolio
   bottom: -8px;
   margin-left: -5px;
   transform: rotate(45deg);
-  background: linear-gradient(105deg, rgba(255,52,69,1) 0%, rgba(255,51,78,1) 100%);
+  background: linear-gradient(105deg, #339900 0%, #339966 100%);
   z-index: -1;
 }
 
@@ -1194,7 +1194,7 @@ Portfolio
 }
 
 .our-portfolio .showed-content img {
-  max-width: 100px;
+
 }
 
 
@@ -1211,6 +1211,9 @@ Blog
 }
 
 .our-blog .section-heading h2 {
+  width: 400px;
+  height: 100px;
+  margin-left: 180px;
   margin-right: 180px;
 }
 
@@ -1225,15 +1228,32 @@ Blog
 
 .our-blog .left-image {
   position: relative;
+  margin-left: 100px;
+  margin-right: 300px;
 }
 
 .our-blog .left-image img {
+  width: 600px;
+  height: 500px;
+  object-fit: fill;
+  margin-left: 250px;
+  border-style: solid;
+  border-color: black;
   border-radius: 20px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
 
 .our-blog .left-image .info {
   position: relative;
+  width: 600px;
+  height: 100px;
+  margin-left: 200px;
+
+}
+
+#blogbase{
+    width: 1600px;
+    height: 450px;
 }
 
 .opinie-opis{
@@ -1256,6 +1276,19 @@ Blog
     padding-top:30px;
 }
 
+#onas1{
+
+    padding-top:30px;
+    width: 1600px;
+    height: 450px;
+}
+
+#onas2{
+    margin-top: 60px;
+    padding-top:30px;
+    width: 1600px;
+    height: 800px;
+}
 
 #opinie-space{
     width:100%;
@@ -1269,15 +1302,47 @@ Blog
   margin: center;
   padding: 50px;
   padding-right: 120px;
-  border-style: solid;
+  border-style: ;
   border-radius: 20px;
-  border-color: black;
+  border-color: ;
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
   width: 1600px;
   height: 700px;
-  background-color: green;
+  background-color: #339933;
+}
+
+#info-onas1{
+  margin: center;
+  padding: 50px;
+  padding-top: 55px;
+  padding-right: 120px;
+  border-style: ;
+  border-radius: 20px;
+  border-color: ;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 1600px;
+  height: 450px;
+  background-color: #339933;
+}
+
+#info-onas2{
+  margin: center;
+  padding: 50px;
+  padding-top: 55px;
+  padding-right: 120px;
+  border-style: ;
+  border-radius: 20px;
+  border-color: ;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 1600px;
+  height: 800px;
+  background-color: #339933;
 }
 
 #opis-onas{
@@ -1285,43 +1350,223 @@ Blog
 }
 
 
-#pt{
+.pt{
+
+  width: 1550px;
+  height: 600px;
+  padding-left: 10px;
+
+}
+
+.pt1{
+
+  width: 1550px;
+  height: 300px;
+  padding-right: 5px;
+
+}
+
+.pt2{
+
+  width: 1500px;
+  height: 300px;
+  padding-left: 17%;
+
+}
+
+.pt3{
 
   width: 1500px;
   height: 600px;
-  padding-left: 25px;
+  padding-left: 20%;
+  padding-right: 10%;
+  padding-bottom: 30px;
 
 }
 
-#img1{
-    width: 480px;
-    height: 600px;
-    float: left;
-    padding: 10px;
+.pt4{
 
-    border-radius: 50%;
+  width: 1500px;
+  height: 700px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: ;
+
 }
 
-#img2{
-    width: 480px;
-    height: 600px;
+.pt .img1 img{
+    width: 500px;
+    height: 347px;
+    object-fit: cover;
     float: left;
     padding: 10px;
-    border-radius: 50%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
 }
 
-#img3{
-    width: 480px;
-    height: 600px;
+.pt .img2 img{
+    width: 470px;
+    height: 347px;
+    object-fit: fill;
     float: left;
     padding: 10px;
-    border-radius: 50%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt .img3 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+
+
+.pt1 .img11 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt1 .img22 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt1 .img33 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt2 .img44 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+
+}
+
+.pt2 .img55 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt3 .img111 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt3 .img222 img{
+    width: 500px;
+    height: 347px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt4 .img12 img{
+    width: 470px;
+    height: 600px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt4 .img23 img{
+    width: 520px;
+    height: 600px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pt4 .img34 img{
+    width: 470px;
+    height: 600px;
+    object-fit: fill;
+    float: left;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.map-main{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
 }
 
 .our-blog .left-image .info .inner-content {
   background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  margin-right: 75px;
+  position: absolute;
+  margin-top: -100px;
+  padding: 30px;
+}
+
+.our-blog .left-image .info .inner-content1 {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  width: 700px;
+  height: 180px;
   margin-right: 75px;
   position: absolute;
   margin-top: -100px;
@@ -1628,7 +1873,7 @@ responsive
     display: none;
   }
   .our-blog .section-heading h2 {
-    margin-right: 0px;
+    margin-left: 100px;
     text-align: center;
     margin-bottom: 45px;
   }
