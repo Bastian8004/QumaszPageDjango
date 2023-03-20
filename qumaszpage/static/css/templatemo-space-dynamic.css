@@ -1177,6 +1177,13 @@ Portfolio
   margin-bottom: 20px;
 }
 
+.our-portfolio .hidden-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
 .our-portfolio .hidden-content p {
   color: #fff;
 }
