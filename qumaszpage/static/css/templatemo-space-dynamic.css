@@ -224,6 +224,30 @@ body {
   line-height: 44px;
 }
 
+.tekst h2 {
+  font-size: 30px;
+  text-transform: ;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  position: relative;
+  z-index: 2;
+  line-height: 44px;
+}
+
+.tekst h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: ;
+  color: blck;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  position: relative;
+  z-index: 2;
+  line-height: 44px;
+}
+
 .section-heading h2 em {
   font-style: normal;
   color: #0e771b;
@@ -1196,7 +1220,7 @@ Portfolio
   text-align: center;
   padding: 50px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 20px rgba(0 0 0 / 20%);
   transition: all 0.5s;
 }
 
@@ -1235,19 +1259,17 @@ Blog
 
 .our-blog .left-image {
   position: relative;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 300px;
 }
 
 .our-blog .left-image img {
-  width: 600px;
-  height: 500px;
+  width: 700px;
+  height: 600px;
   object-fit: fill;
   margin-left: 250px;
-  border-style: solid;
-  border-color: black;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
 }
 
 .our-blog .left-image .info {
@@ -1268,8 +1290,9 @@ Blog
   padding: 30px;
   border-style: solid;
   border-radius: 20px;
-  border-color: black;
+  border-color: white;
   text-align: center;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
 }
 
 #opinie{
@@ -1281,6 +1304,7 @@ Blog
 #onas{
 
     padding-top:30px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
 }
 
 #onas1{
@@ -1317,7 +1341,8 @@ Blog
   margin-right: 15%;
   width: 1600px;
   height: 700px;
-  background-color: #339933;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
 }
 
 #info-onas1{
@@ -1333,7 +1358,8 @@ Blog
   margin-right: 15%;
   width: 1600px;
   height: 450px;
-  background-color: #339933;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
 }
 
 #info-onas2{
@@ -1349,7 +1375,38 @@ Blog
   margin-right: 15%;
   width: 1600px;
   height: 800px;
-  background-color: #339933;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+
+.platnoscopis{
+  margin: 10px;
+  border-style: ;
+  border-radius: 20px;
+  border-color: ;
+  float: left;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+  margin-left: 30%;
+}
+
+
+#opisp{
+    margin-top: 20px;
+    padding-top: 60px;
+}
+
+.opis{
+    float: left;
+}
+
+#platnosc-space{
+  width: 1400px;
+  height: 400px;
+
 }
 
 #opis-onas{
@@ -1552,6 +1609,101 @@ Blog
     border-radius: 20px;
     border-color: white;
 }
+
+.spacecennik{
+    width: 1300px;
+    height: 500px;
+    padding-left: 3%;
+}
+
+.cennik1{
+    width: 300px;
+    height: 500px;
+    float:left;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    max-width: 300px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+
+.cennik2{
+    width: 300px;
+    height: 500px;
+    float:left;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+
+.cennik3{
+    width: 300px;
+    height: 500px;
+    float:left;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+
+.cennik4{
+    width: 300px;
+    height: 500px;
+    float:left;
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+
+.cennik-opis h3{
+    text-align: center;
+    color: #0e771b;
+}
+
+.cennik-opis h4{
+    text-align: center;
+    color: black;
+}
+
+.cennik-opis h5{
+    text-align: center;
+    color: black;
+}
+
+.cena h4{
+    text-align: center;
+    color: black;
+}
+
+.cena h5{
+    text-align: center;
+    color: black;
+}
+
+.photo{
+    padding-left: 60px;
+}
+
+.photo img{
+    width: 170px;
+    height: 170px;
+    object-fit: fill;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.servis p{
+    text-align: center;
+    color: white;
+    font-size: 19px;
 }
 
 .our-blog .left-image .info .inner-content {
@@ -1568,11 +1720,11 @@ Blog
 
 .our-blog .left-image .info .inner-content1 {
   background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
   border-radius: 20px;
   border-style: solid;
-  border-color: black;
-  width: 700px;
+  border-color: white;
+  width: 800px;
   height: 180px;
   margin-right: 75px;
   position: absolute;

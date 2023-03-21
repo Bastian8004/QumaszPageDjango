@@ -25,7 +25,7 @@ def onas(request):
 
 
 def post_list(request):
-    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    posts = Post.objects.all().order_by('-published_date')
     return render(request, 'conowego/post_list.html', {'posts': posts})
 
 def post_detail(request, pk):
@@ -64,7 +64,7 @@ def post_edit(request, pk):
     return render(request, 'conowego/post_edit.html', {'form': form})
 
 def opinion_list(request):
-    opinions = Opinion.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    opinions = Opinion.objects.all().order_by('-published_date')
     return render(request, 'opinie/opinie.html', {'opinions': opinions})
 
 
