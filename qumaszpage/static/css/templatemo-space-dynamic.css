@@ -1706,6 +1706,18 @@ Blog
     font-size: 19px;
 }
 
+.posttytul{
+   width: 400px;
+   height: 100px;
+}
+
+.posttytul .section-heading h2{
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+    margin-left: 135px;
+}
+
 .our-blog .left-image .info .inner-content {
   background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
@@ -1731,6 +1743,12 @@ Blog
   margin-top: -100px;
   padding: 30px;
 }
+
+.our-blog .left-image .info .inner-content1 p{
+    text-align: center;
+    font-size: 19px;
+}
+
 
 .our-blog .left-image ul li {
   display: inline-block;

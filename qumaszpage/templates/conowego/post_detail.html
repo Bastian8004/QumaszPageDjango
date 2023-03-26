@@ -3,29 +3,29 @@
 {% block content %}
 <div id="blog" class="our-blog section" xmlns="http://www.w3.org/1999/html">
     <div class="container">
-      <div class="row">
-          {% if post.published_date %}
-        <div class="fa fa-calendar">
-            {{ post.published_date }}
+        <div class="posttytul">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2><b>{{ post.title }}</b></h2>
+          </div>
         </div>
-        {% endif %}
-      </div>
-      <div class="row">
-        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+        <div class="row">
+        <div id="blogbase" class="col-lg-6 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.25s" style="visibility: visible;-webkit-animation-duration: 1s; -moz-animation-duration: 1s; animation-duration: 1s;-webkit-animation-delay: 0.25s; -moz-animation-delay: 0.25s; animation-delay: 0.25s;">
           <div class="left-image">
-            <a href="#"><img src="{{ post.image.url }}" alt=""></a>
+            <a href="#"><img src="{{ post.image.url }}"></a>
+            <br>
+            <br>
             <div class="info">
-              <div class="inner-content">
+              <div class="inner-content1">
                 <ul>
-                  <li><i class="fa fa-users"></i> {{ post.author }}</li>
+                  <li><i class="fa fa-calendar"></i>{{ post.published_date }}</li>
+                  <li><i class="fa fa-users"></i> {{ post.author}}</li>
                 </ul>
-               <h4>{{ post.title }}</h4>
-                <p>{{ post.text|linebreaksbr }}</p>
+                  <p><b>{{ post.text|linebreaksbr }}</b></p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </div>
   </div>
 {% endblock %}
