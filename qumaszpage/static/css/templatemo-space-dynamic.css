@@ -1706,6 +1706,24 @@ Blog
     font-size: 19px;
 }
 
+.servis h3{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.servis a{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
+
+.servis h2{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
+
 .posttytul{
    width: 400px;
    height: 100px;
