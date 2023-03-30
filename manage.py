@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+#https://tutorial-extensions.djangogirls.org/en/domain
 import os
 import sys
 
