@@ -1703,13 +1703,13 @@ Blog
 .servis p{
     text-align: center;
     color: white;
-    font-size: 19px;
+    font-size: 22px;
 }
 
-.servis h3{
+.servis h4{
     text-align: center;
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-size: 25px;
 }
 
 .servis a{
