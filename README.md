@@ -43,13 +43,13 @@
 <h2>Poniżej zdjęcia projektu z widoku przeglądarki:</h2>
 
 <h5>Lista produktów na stronie</h5>
-![Lista produktów na stronie](images/Zrzut ekranu 2024-08-23 145558.png)
+<img src="images/1.png">
 <h5>Szcegółowa strona produktu</h5>
-![Zrzut ekranu 2024-08-23 145757](https://github.com/user-attachments/assets/a84d3d37-9348-428f-a074-f0c3cc558883)
+<img src="images/2.png">
 <h5>Widok koszyka</h5>
-![Zrzut ekranu 2024-08-23 145819](https://github.com/user-attachments/assets/4327e6a9-3c92-4658-96ab-3ea64aa1afcb)
+<img src="images/3.png">
 <h5>Widok zamówienia i wypełnienia danych</h5>
-![Zrzut ekranu 2024-08-23 145940](https://github.com/user-attachments/assets/4b457681-ba71-4ea3-814b-73abdec62e25)
+<img src="images/4.png">
 
 
 
