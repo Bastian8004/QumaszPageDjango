@@ -43,7 +43,7 @@
 <h2>Poniżej zdjęcia projektu z widoku przeglądarki:</h2>
 
 <h5>Lista produktów na stronie</h5>
-![Zrzut ekranu 2024-08-23 145558](https://github.com/user-attachments/assets/4d03df23-1c58-4b1a-bebb-3c018b172af1)
+![Lista produktów na stronie](images/Zrzut ekranu 2024-08-23 145558.png)
 <h5>Szcegółowa strona produktu</h5>
 ![Zrzut ekranu 2024-08-23 145757](https://github.com/user-attachments/assets/a84d3d37-9348-428f-a074-f0c3cc558883)
 <h5>Widok koszyka</h5>
